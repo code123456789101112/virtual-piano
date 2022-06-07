@@ -75,6 +75,16 @@
             #as {
                 left: 625px;
             }
+
+            #note {
+                position: fixed;
+                top: 275px;
+                left: 1000px;
+                width: 300px;
+                height: 200px;
+                background-color: white;
+                border: 3px solid black;
+            }
         </style>
     </head>
     <body>
@@ -93,6 +103,9 @@
         <div class="bkey" id="gs"></div>
         <div class="bkey" id="as"></div>
 
+        <div id="note"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vexflow@4.0.3/build/cjs/vexflow.js"></script>
         <script src="./index.js" type="module"></script>
         <script src="./frequencies.js" type="module"></script>
     </body>
