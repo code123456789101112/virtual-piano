@@ -1,4 +1,4 @@
-export default {
+const frequencies = {
     c: [261.6256, "C/4"],
     cs: [277.1826, "C#/4", "Db/4"],
     d: [293.6648, "D/4"],
@@ -13,3 +13,21 @@ export default {
     b: [493.8833, "B/4"],
     cc: [523.2511, "C/5"]
 };
+
+const keys = {
+    a: "c",
+    w: "cs",
+    s: "d",
+    e: "ds",
+    d: "e",
+    f: "f",
+    t: "fs",
+    g: "g",
+    y: "gs",
+    h: "a",
+    u: "as",
+    j: "b",
+    k: "cc"
+};
+
+export default [frequencies, keys];
